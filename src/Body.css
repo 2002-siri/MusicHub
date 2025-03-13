@@ -1,0 +1,26 @@
+.body {
+  flex: 0.8;
+  background: linear-gradient(rgb(91, 87, 115), black);
+  height: 100vh;
+  padding: 30px;
+  overflow-y: overlay;
+}
+
+.body_info {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.body_infoText > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.body_infoText > p {
+  font-size: 14px;
+}
+
+.body_songs {
+  margin: 20px -30px;
+}
